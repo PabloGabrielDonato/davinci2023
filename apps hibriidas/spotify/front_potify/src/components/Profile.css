@@ -1,0 +1,30 @@
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-image {
+    height: 200px;
+    width: 200px;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.profile-text {
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 10px;
+}
+
+.profile-button {
+    font-size: 1rem;
+    color: #FFF;
+    margin: 10px;
+    background-color: #121212;
+    padding:20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}

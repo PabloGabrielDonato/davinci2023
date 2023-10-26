@@ -1,0 +1,123 @@
+body{
+    background-color: #121212;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+button {
+    cursor: pointer;
+}
+
+button.link {
+    background-color: #333;
+    border: none;
+    margin-left: 4px;
+}
+
+button.link:hover {
+    transform: scale(1.1);
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+h1 {
+    color: #1fdf64;
+    margin: 10px;
+    font-size: 48px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #121212;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid #fff;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 36px;
+    padding: 16px;
+    background-color: #333;
+}
+
+form input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #121212;
+    color: #fff;
+}
+
+form select {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #121212;
+    color: #fff;
+}
+
+
+form button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid #121212;
+    background-color: #1fdf64;
+    font-size: 20px;
+    color: #fff;
+}
+
+.container {
+    margin: 16px;
+    padding: 16px;
+    background-color: #121212;
+}
+
+.container .card {
+    list-style-type: none;
+    border-radius: 20px;
+    background-color: #333;
+    margin: 16px;
+    padding: 16px;
+}
+
+a {
+    color: #1fdf64;
+    text-decoration: none;
+}
+
+.subtitle {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.button.eliminar {
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    margin-left: 4px;
+}

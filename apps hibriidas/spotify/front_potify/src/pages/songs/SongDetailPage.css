@@ -1,0 +1,47 @@
+.detail {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    background-color: #333;
+    width: 75%;
+    margin: auto;
+    margin-top: 16px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.detail header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.song-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.detail .song-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.detail .song-name .song-code {
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 8px;
+    color: gray
+}
+
+.song-info-image {
+    height: 200px;
+    width: 200px;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    
+}

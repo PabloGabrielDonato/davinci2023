@@ -1,0 +1,65 @@
+.song-list-item{
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 10px;   
+    overflow: hidden;
+}
+
+.song-list-item .song-details{
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.song-list-item .song-name{
+    color: #fff;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.song-list-item .song-code{
+    font-size: 10px;
+    margin-left: 8px;
+    color: #999;
+}
+
+.song-list-item .song-duration{
+    font-size: .8rem;
+    color: #fff;
+}
+
+.song-list-item .song-image{
+    height: 200px;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+.song-list-item .song-actions {
+    text-align: left;
+}
+
+.song-list-item .song-actions .song-view{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FFF;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #121212;
+    padding: .5em 1em;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+}

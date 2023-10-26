@@ -1,0 +1,21 @@
+.song-list{
+
+}
+
+.song-list__form{
+    font-size: 1rem;
+    margin: 1rem;
+    background-color: hsl(0, 0%, 66%);
+    padding: 1rem;
+}
+
+.song-list__filter{
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+
+.song-list__list{
+
+}
